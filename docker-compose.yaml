@@ -18,7 +18,7 @@ services:
       retries: 5
   backend_quiz:
     build:
-      context: ..
+      context: .
       dockerfile: Dockerfile
     depends_on:
       db:
