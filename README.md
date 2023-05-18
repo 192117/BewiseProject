@@ -32,7 +32,7 @@ _Создайте файл .env на основе .env.example для запус
 
 3. Запустите приложеие с помощью Poetry:
 
-`poetry run uvicorn app:app --host 127.0.0.1 --port 8000`
+`poetry run uvicorn app:app --host 0.0.0.0 --port 8000`
 
 4. Доступ к приложению: 
 
